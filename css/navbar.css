@@ -1,0 +1,10 @@
+.nav-link {
+    font-family: var(--cartoonFont);    
+    font-size: 16px;
+    padding-right: 5vw;
+}
+
+.dropdown-item {
+    font-family:var(--cartoonFont);
+    font-size: 16px;
+} 

@@ -4,50 +4,169 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Henry Huelsman's Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./css/main.css"> <!--goes below bootstrap to override importance-->
+    <link href="https://fonts.googleapis.com/css?family=Coda|Delius|Shadows+Into+Light" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-    </nav>
-    
-    <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#portfolio">Tutorial Webpage</a>
+            <a class="dropdown-item" href="#portfolio">CSS Creature</a>
+            <a class="dropdown-item" href="#portfolio">API Project</a>
+          </div>
+        </li>
+      </ul>
     </div>
+  </nav>
+  
+  <div class="jumbotron">
+    <h1 class="animated lightSpeedIn delay-1s">Henry Huelsman</h1>
+    <p id="lead" class="animated lightSpeedIn delay-1s">Front-End Development</p>
+    <hr class="my-4">
+    <p></p>
+    <a class="btn btn-primary btn-lg" href="#contact" role="button">Let's Take a Ride</a>
+  </div>
+ 
+  <br>
+  <br>
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello World! My name is Henry, and I am a brand new face in the field of web development and design. Though my experience may be limited, my enthusiasm is boundless. Whether it be on two wheels or two feet, I am often keeping active. I believe in engaging both the mind and body to the highest degree. That is one of the main reasons I entered this field. My ultimate goal is to find ways to interact the digital world with the natural world, and to improve peoples' experiences in both. Currently, I am a student at ElevenFifty Academy in the Javascript program. I have learned much already and continue to expand my knowledge to create more complex and interactive projects. Yours could be next!</p>
+    <br>
+    <a href="https://github.com/huelsmanhd" target="_blank" style= "font-size: 2em; color: black">
+      <i class="fab fa-github-square"></i>
+    </a>
+    <a href="https://www.linkedin.com/" target="_blank" style="font-size: 2em; color: black">
+        <i class="fab fa-linkedin"></i>
+    </a>
+  </section>
+  <section class="resume">
+    <a href="file:///C:/Users/Henry%20Huelsman/Downloads/Resume%20(1).pdf" target="_blank">Resume attached here</a>
+  </section>
+  
+  <br>
+  <br>
+ 
+  <section id="portfolio">
+    <h2>Completed Projects</h2>
+    <div class='card-columns'>
+      <div id="jsBasics" class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://images.unsplash.com/photo-1518932945647-7a1c969f8be2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Javascript Basics</h5>
+          <p class="card-text">An introductiry project detailing the basic fundamentals of Javascript created with HTML and CSS.</p>
+          <a href="file:///C:/Users/Henry%20Huelsman/Desktop/Javascript2019/Javascript-Library/2-javaScript-Projects/2-indexWebpage/index.html" class="btn btn-primary" target="blank">Check it out!</a>
+        </div>
+      </div>
+      <div id="creature" class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./images/ines-pimentel-564023-unsplash.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">CSS Creature</h5>
+          <p class="card-text">A mythical creature created soley with CSS editing. The inspiration for this little guy was an attempt to mimic a sticker on my laptop.</p>
+          <a href="https://codepen.io/huelsmanhd/full/LMryqv" class="btn btn-primary" target="blank">Sticker Reincarnate</a>
+        </div>
+      </div>
+      <div id="api" class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./images/jose-soriano-1231640-unsplash.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">API Project</h5>
+          <p class="card-text">A project with the goal of drawing from an API database and displaying results in a custom format. This was a random recipe generator based on certain food search parameters.</p>
+          <a href="https://edamamrecipeapi.firebaseapp.com/" class="btn btn-primary" target="blank">Get recipes</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!--Javascript Tags-->   
+  <br>
+  <br>
+  
+  <div class="container" id= "contact">
+    <h2 class="text-center">Contact Me</h2>
+    <div class="row">
+      <form action="https://formspree.io/hhuelsman14@gmail.com" method="POST">
+        <div class="control-group">
+          <div class="form-group">
+            <label>Name</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Your Name"
+              id="name"
+              required
+              data-validation-required-message="Please enter your name"
+              name="name"
+              >
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+        <div class="control-group">
+          <div class="form-group">
+            <label>Email Address</label>
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Your Email"
+              id="email"
+              required
+              data-validation-required-message="Please enter your email"
+              name="_replyto"
+            >
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+        <div class="control-group">
+          <div class="form-group">
+            <textarea
+              class="form-control"
+              rows="7"
+              placeholder="Your Message"
+              id="message"
+              required
+              data-validation-required-message="Please leave a message"
+              name="message"
+            ></textarea>
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+        <div class="text-center">
+          <div id="success"></div>
+          <button type="submit" class="btn btn-lg btn-white">
+            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+            Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+<footer class='footer'>
+  <p>Posted by: Henry Huelsman</p>
+</footer>
+
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>   

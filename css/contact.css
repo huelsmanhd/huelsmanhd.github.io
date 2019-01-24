@@ -1,0 +1,30 @@
+.container {
+    position: relative;
+    float: center;
+    text-align: center;
+    font-family: 'Coda', cursive;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(103,103,103,1) 0%, rgba(37,37,37,1) 51%, rgba(0,0,0,1) 100%);
+    margin: 5;
+    border-radius: 10px 10px;
+}
+
+.container input {
+    position: relative;
+    float: center;
+    width: 200%;
+}
+.container textarea {
+    position: relative;
+    float: center;
+    width: 200%;
+}
+
+.text-center {
+    color: whitesmoke;
+    margin: 1vw 1vh;
+}
+
+.container label {
+    color: whitesmoke;
+}

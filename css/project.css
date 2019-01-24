@@ -1,0 +1,32 @@
+#portfolio {
+    position: relative;
+    float: center;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-family: 'Coda', cursive;
+    padding: 2vh;
+}
+
+.card.columns {
+    display: inline-block;
+    margin: 3vw 3vh;
+    
+}
+
+.card-title {
+    font: 24px 'Coda', cursive;
+}
+
+.card-text {
+    font-family: 'Delius', cursive;
+}
+
+.card a {
+    font-family: 'Delius', cursive;
+}
+
+br {
+    background: transparent;
+}
